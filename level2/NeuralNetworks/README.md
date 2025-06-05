@@ -7,4 +7,18 @@
 
 ### 参考：
 
-[神经网络入门](http://blog.csdn.net/zzwu/article/details/574931) 
+[神经网络入门](http://blog.csdn.net/zzwu/article/details/574931)
+
+本目录包含 Python 实现 `digit_nn.py` 与纯 C 实现 `digit_nn.c`。
+
+编译 C 程序：
+
+```bash
+gcc digit_nn.c -lm -o digit_nn
+```
+
+运行：
+
+```bash
+./digit_nn
+```
